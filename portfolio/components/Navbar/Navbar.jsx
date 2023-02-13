@@ -1,5 +1,8 @@
 import React from 'react'
 import Link from 'next/link'
+
+
+
 const Navbar = () => {
   return (
     <div className='w-full h-16 bg-cyan-700 flex justify-center items-center'>
