@@ -109,3 +109,23 @@ a {
     color-scheme: dark;
   }
 }
+
+/* ------------------ */
+
+
+ul li a{
+    background-color: #0E7490;
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+ul li a:hover{
+    background-color: #1283ac;
+    color: #fff;
+}
+
+.active{
+    background-color: #073546;
+    color: #fff;
+}
