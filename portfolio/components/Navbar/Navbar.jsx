@@ -7,6 +7,12 @@ const Navbar = () => {
             <li>
                 <Link rel="stylesheet" href="" >Home</Link>
             </li>
+            <li>
+                <Link rel="stylesheet" href="" >Contact</Link>
+            </li>
+            <li>
+                <Link rel="stylesheet" href="" >Projects</Link>
+            </li>
             
         </ul>
     </div>
