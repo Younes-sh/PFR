@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 const Navbar = () => {
   return (
-    <div>
+    <div className='w-full h-16 bg-cyan-700'>
         <ul>
             <li>
                 <Link rel="stylesheet" href="" >Home</Link>
