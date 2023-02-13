@@ -7,6 +7,7 @@ const Navbar = () => {
             <li>
                 <Link rel="stylesheet" href="" >Home</Link>
             </li>
+            
         </ul>
     </div>
   )
