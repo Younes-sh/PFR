@@ -15,7 +15,7 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
        
-
+          <h1>Home</h1>
        
       </main>
     </>

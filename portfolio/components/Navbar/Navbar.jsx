@@ -8,15 +8,15 @@ const Navbar = () => {
     
   return (
     <div className=''>
-        <ul className=''>
-            <li  className=' '>
-                <Link rel="stylesheet" href="" >Home</Link>
+        <ul className='w-2/3 h-full flex '>
+            <li  className=' m-4'>
+                <Link  href="/" >Home</Link>
             </li>
-            <li className=' '>
-                <Link rel="stylesheet" href="" >Contact</Link>
+            <li className=' m-4'>
+                <Link  href="/contact" >Contact</Link>
             </li>
-            <li className=' '>
-                <Link rel="stylesheet" href="" >Projects</Link>
+            <li className=' m-4'>
+                <Link  href="/projects" >Projects</Link>
             </li>
             
         </ul>
