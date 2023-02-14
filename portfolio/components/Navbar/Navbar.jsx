@@ -1,27 +1,25 @@
-import Link from 'next/link'
-import '../../styles/globals.css'
-
-
-
-
-const Navbar = () => {
-    
+import Link from 'link/next'
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import ImageIcon from '../../assets/logo.png';
+function ColorSchemesExample() {
   return (
-    <div className=''>
-        <ul className='w-2/3 h-full flex '>
-            <li  className=' m-4'>
-                <Link  href="/" >Home</Link>
-            </li>
-            <li className=' m-4'>
-                <Link  href="/contact" >Contact</Link>
-            </li>
-            <li className=' m-4'>
-                <Link  href="/projects" >Projects</Link>
-            </li>
-            
-        </ul>
-    </div>
-  )
+    <>
+      <Navbar bg="light" variant="light">
+        <Container>
+          <Navbar.Brand href="/">
+            <img src={ImageIcon} alt="" />
+          </Navbar.Brand>
+          <Nav className="me-auto">
+            <Link href="/">Home</Link>
+            <Link href="/contact">Contact</Link>
+            <Link href="/projects">Projects</Link>
+          </Nav>
+        </Container>
+      </Navbar>
+    </>
+  );
 }
 
-export default Navbar
+export default ColorSchemesExample;
