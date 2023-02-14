@@ -3,3 +3,26 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.navbar {
+  width: 100%;
+  height: 70px;
+  background-color: #7e9b9bc7;
+  position: fixed;
+}
+.container-menu {
+  display: flex;
+  justify-content: space-around;
+}
+.container-menu .container-menu-languge {
+  width: 50%;
+  height: 100%;
+}
+.navbar ul {
+  display: flex;
+}
+.navbar ul li {
+  margin: 5px 10px;
+  list-style-type: none;
+  color: aliceblue;
+}

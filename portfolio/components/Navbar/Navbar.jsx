@@ -1,25 +1,37 @@
-import Link from 'link/next'
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
+import Link from 'next/link'
 import ImageIcon from '../../assets/logo.png';
-function ColorSchemesExample() {
+function Navbar() {
   return (
     <>
-      <Navbar bg="light" variant="light">
-        <Container>
-          <Navbar.Brand href="/">
-            <img src={ImageIcon} alt="" />
-          </Navbar.Brand>
-          <Nav className="me-auto">
-            <Link href="/">Home</Link>
-            <Link href="/contact">Contact</Link>
-            <Link href="/projects">Projects</Link>
-          </Nav>
-        </Container>
-      </Navbar>
+      <div className='navbar'>
+        <div>
+            <Link href="/">
+              <img src={ImageIcon} alt="" />
+            </Link>
+            <div className="container-menu">
+            
+                <div className='menu-list'>
+                    <ul>
+                        <li>
+                            <Link className='Link' href="/">Home</Link>
+                        </li>
+                        <li>
+                            <Link className='Link' href="/contact">Contact</Link>
+                        </li>
+                        <li>
+                            <Link className='Link' href="/projects">Projects</Link>
+                        </li>
+                    </ul>
+                </div>
+
+                <div className='menu-languge'>
+                    <h1>Languge</h1>
+                </div>
+            </div>
+        </div>
+      </div>
     </>
   );
 }
 
-export default ColorSchemesExample;
+export default Navbar;
